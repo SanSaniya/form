@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trying form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h3>User Personal Information</h3>
+            </legend>
+        
+       
+    <div>
+        <div> <br>
+            <label class="fname" for="name">First Name</label> <br>
+            <input type="text" placeholder="Enter your first name" required>
+        </div>
+        <div> <br>
+            <label class="lname" for="name">Last Name</label> <br>
+            <input type="text" placeholder="Enter your last name">
+        </div>
+        <div> <br>
+            <label class="e-mail" for="gmail">E-mail</label> <br>
+            <input type="text" placeholder="Enter your Email"required>
+        </div>
+        <div> <br>
+            <label class="phone" for="number">Phone Number</label> <br>
+            <input type="number" placeholder="Enter your Phone Number" required>
+        </div>
+        <div> <br>
+            <label class="password" for="password">Password</label> <br>
+            <input type="password" placeholder="Enter your password" required>
+        </div>
+        <div> <br>
+            <label class="password" for="password">Confirm Password</label> <br>
+            <input type="text" placeholder="Confirm your password">
+        </div>
+        <div> <br>
+            <label class="year" for="year">Year of Study</label> <br>
+            <input type="radio" name="year" value="1st">1st</input>
+            <input type="radio" name="year" value="2nd">2nd</input>
+            <input type="radio" name="year" value="3rd">3rd</input>
+            <input type="radio" name="year" value="4th">4th</input>
+        </div>
+        <div style="width:300px;"> <br>
+            <label class="gender" for="gender">Gender</label> <br>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="none">Do not wish to answer</option>
+            </select>
+        </div>
+        <div> <br>
+            <label class="dob" for="dob">Date of Birth</label> <br>
+            <input type="date">
+        </div>
+        <div> <br>
+            <label class="add" for="address">Address</label> <br>
+            <input type="text" placeholder="Enter Your Address">
+        </div>
+        <br>
+        <input type="submit" value="submit">
+    </div> 
+</fieldset>
+</form>
+</body>
+</html>

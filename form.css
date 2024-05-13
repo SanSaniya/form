@@ -1,0 +1,66 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    border: solid;
+    border-color: rgb(133, 174, 210) ;
+    background-color:  rgb(133, 174, 210);
+    border-width: 5em;
+    border-color: rgb(133, 174, 210);
+   
+}
+form{
+    width: 400px;
+    background-color: rgb(153, 201, 241);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Verdana;
+}
+h3{
+    font-family: 'Segoe UI';
+}
+legend{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    align-self:flex-end;
+}
+fieldset{
+    border: 1px solid rgb(112, 62, 62);
+    box-shadow: 0 0 10 rgba(rgb(232, 174, 113), 0, 0, 0.5);
+    padding: 10px;
+    padding-left: 15px;
+    margin: 0;
+}
+input[type="text"], input[type="email"], input[type="number"] , input[type="date"], input[type="password"], textarea, select{
+    width: calc(100% - 20px);
+    padding: 8px;
+    user-select: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="radio"]{
+    margin-left: 20px;
+}
+input[type="submit"]{
+    border: solid;
+    border-color:rgb(255, 255, 255);
+    padding: 10px 20px;
+    color: aliceblue; background-color:  rgb(78, 187, 255);
+    font-family: monospace; 
+    background-color: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
+    border-radius: 18px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+input[type="submit"]:hover{
+    background-color: #006eff;
+}
+input[type="submit"]:active{
+box-shadow:3px 3px 3px #ffffff;
+}
